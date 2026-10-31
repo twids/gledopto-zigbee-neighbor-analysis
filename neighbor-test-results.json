@@ -1,0 +1,238 @@
+[
+  {
+    "in": [
+      [
+        "A",
+        "0x2222"
+      ],
+      [
+        "B",
+        "0x3333"
+      ],
+      [
+        "C",
+        "0x4444"
+      ]
+    ],
+    "needle": "A",
+    "target_nwk": "0x1111",
+    "out": [
+      [
+        "BBBBBBBB",
+        "0x3333"
+      ],
+      [
+        "CCCCCCCC",
+        "0x4444"
+      ]
+    ],
+    "removed_indices": [
+      0
+    ],
+    "visited": [
+      {
+        "index": 0,
+        "pointer_index": 0
+      },
+      {
+        "index": 0,
+        "pointer_index": 1
+      },
+      {
+        "index": 1,
+        "pointer_index": 2
+      }
+    ]
+  },
+  {
+    "in": [
+      [
+        "A",
+        "0x1111"
+      ],
+      [
+        "B",
+        "0x3333"
+      ]
+    ],
+    "needle": "A",
+    "target_nwk": "0x1111",
+    "out": [
+      [
+        "AAAAAAAA",
+        "0x1111"
+      ],
+      [
+        "BBBBBBBB",
+        "0x3333"
+      ]
+    ],
+    "removed_indices": [],
+    "visited": [
+      {
+        "index": 0,
+        "pointer_index": 0
+      },
+      {
+        "index": 1,
+        "pointer_index": 1
+      }
+    ]
+  },
+  {
+    "in": [
+      [
+        "A",
+        "0x2222"
+      ],
+      [
+        "B",
+        "0x3333"
+      ],
+      [
+        "A",
+        "0x4444"
+      ],
+      [
+        "C",
+        "0x5555"
+      ]
+    ],
+    "needle": "A",
+    "target_nwk": "0x1111",
+    "out": [
+      [
+        "AAAAAAAA",
+        "0x4444"
+      ],
+      [
+        "CCCCCCCC",
+        "0x5555"
+      ]
+    ],
+    "removed_indices": [
+      0,
+      0
+    ],
+    "visited": [
+      {
+        "index": 0,
+        "pointer_index": 0
+      },
+      {
+        "index": 0,
+        "pointer_index": 1
+      },
+      {
+        "index": 0,
+        "pointer_index": 2
+      },
+      {
+        "index": 1,
+        "pointer_index": 3
+      }
+    ]
+  },
+  {
+    "in": [
+      [
+        "A",
+        "0x2222"
+      ],
+      [
+        "A",
+        "0x4444"
+      ],
+      [
+        "B",
+        "0x3333"
+      ]
+    ],
+    "needle": "A",
+    "target_nwk": "0x1111",
+    "out": [
+      [
+        "AAAAAAAA",
+        "0x4444"
+      ],
+      [
+        "BBBBBBBB",
+        "0x3333"
+      ]
+    ],
+    "removed_indices": [
+      0
+    ],
+    "visited": [
+      {
+        "index": 0,
+        "pointer_index": 0
+      },
+      {
+        "index": 0,
+        "pointer_index": 1
+      },
+      {
+        "index": 1,
+        "pointer_index": 2
+      }
+    ]
+  },
+  {
+    "in": [
+      [
+        "B",
+        "0x3333"
+      ],
+      [
+        "A",
+        "0x2222"
+      ],
+      [
+        "A",
+        "0x4444"
+      ],
+      [
+        "C",
+        "0x5555"
+      ]
+    ],
+    "needle": "A",
+    "target_nwk": "0x1111",
+    "out": [
+      [
+        "BBBBBBBB",
+        "0x3333"
+      ],
+      [
+        "AAAAAAAA",
+        "0x4444"
+      ],
+      [
+        "CCCCCCCC",
+        "0x5555"
+      ]
+    ],
+    "removed_indices": [
+      1
+    ],
+    "visited": [
+      {
+        "index": 0,
+        "pointer_index": 0
+      },
+      {
+        "index": 1,
+        "pointer_index": 1
+      },
+      {
+        "index": 1,
+        "pointer_index": 2
+      },
+      {
+        "index": 2,
+        "pointer_index": 3
+      }
+    ]
+  }
+]

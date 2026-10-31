@@ -1,0 +1,3 @@
+*.ota
+__pycache__/
+.venv/
